@@ -1,7 +1,7 @@
 #! /bin/bash
 apt-get update
 apt-get upgrade -y
-apt autoremove
+apt autoremove -y
 apt-get install python3
 apt-get install python-setuptools
 apt-get install python-dev python3-dev
