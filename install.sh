@@ -9,7 +9,7 @@ sudo apt-get install mercurial -y
 sudo apt-get install python-pip python3-pip -y
 
 git clone https://github.com/davidramirezm30/OrangePi.GPIO
-cd /OrangePi.GPIO
+cd OrangePi.GPIO/
 python setup.py install
 
 git clone https://github.com/davidramirezm30/orangepi_PC_gpio_pyH3
