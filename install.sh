@@ -17,3 +17,4 @@ cd orangepi_PC_gpio_pyH3/
 python setup.py install
 cd ..
 chmod -R 777 OrangePi-Config-Tutorial/
+rm -r OrangePi-Config-Tutorial/
