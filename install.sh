@@ -15,6 +15,6 @@ python setup.py install
 git clone https://github.com/davidramirezm30/orangepi_PC_gpio_pyH3
 cd orangepi_PC_gpio_pyH3/
 python setup.py install
-cd ..
+cd ~
 chmod -R 777 OrangePi-Config-Tutorial/
 rm -r OrangePi-Config-Tutorial/
