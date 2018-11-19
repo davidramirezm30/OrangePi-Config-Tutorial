@@ -2,11 +2,8 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt autoremove -y
-sudo apt-get install python3-y
-sudo apt-get install python-setuptools -y
-sudo apt-get install python-dev python3-dev -y
 sudo apt-get install mercurial -y
-sudo apt-get install python-pip python3-pip -y
+sudo apt-get install build-essential python3 python-dev python3-dev python-distlib python-setuptools python-pip python3-pip python-wheel libzmq-dev libgdal-dev -y
 
 git clone https://github.com/davidramirezm30/OrangePi.GPIO
 cd OrangePi.GPIO/
@@ -16,5 +13,11 @@ git clone https://github.com/davidramirezm30/orangepi_PC_gpio_pyH3
 cd orangepi_PC_gpio_pyH3/
 python setup.py install
 cd ~
-chmod -R 777 OrangePi-Config-Tutorial/
-rm -r OrangePi-Config-Tutorial/
+sudo chmod -R 777 OrangePi-Config-Tutorial/
+sudo rm -r OrangePi-Config-Tutorial/
+
+sudo dpkg --configure -a -y
+sudo apt-get install ubuntu-mate-desktop -y
+clear
+sudo run-parts /etc/update-motd.d/
+
