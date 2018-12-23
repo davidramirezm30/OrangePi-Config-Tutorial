@@ -16,8 +16,4 @@ cd ~
 sudo chmod -R 777 OrangePi-Config-Tutorial/
 sudo rm -r OrangePi-Config-Tutorial/
 
-sudo dpkg --configure -a -y
-sudo apt-get install ubuntu-mate-desktop -y
-clear
-sudo run-parts /etc/update-motd.d/
 
