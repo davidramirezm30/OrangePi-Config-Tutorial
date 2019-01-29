@@ -6,6 +6,7 @@ sudo apt-get install mercurial -y
 sudo apt-get install build-essential python3 python-dev python3-dev python-distlib python-setuptools python-pip python-smbus python3-pip python-wheel python-smbus libgdal-dev -y
 sudo apt-get install i2c-tools
 sudo apt-get install libfreetype6-dev
+sudo apt-get install sysinfo
 pip uninstall pillow
 pip install --no-cache-dir pillow
 sudo pip install psutil
