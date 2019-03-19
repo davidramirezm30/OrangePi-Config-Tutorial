@@ -27,4 +27,6 @@ sudo rm -r orangepi_PC_gpio_pyH3/
 sudo chmod -R 777 OrangePi-Config-Tutorial/
 sudo rm -r OrangePi-Config-Tutorial/
 
+apt-get install thonny -y
+
 sudo reboot
