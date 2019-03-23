@@ -29,4 +29,7 @@ sudo rm -r OrangePi-Config-Tutorial/
 
 apt-get install thonny -y
 
+#CAMBIAR opi POR TU NOMBRE DE USUARIO
+echo "opi ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.d/010_opi_nopasswd
+
 sudo reboot
