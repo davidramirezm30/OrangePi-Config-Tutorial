@@ -1,4 +1,7 @@
 #! /bin/bash
+
+echo "dtoverlay=lirc-opi,gpio\_in\_pin=1,gpio\_out=0,gpio\_in\_pull=up" >> /boot/armbianEnv.txt
+
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt autoremove -y
