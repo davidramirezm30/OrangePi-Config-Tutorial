@@ -6,14 +6,14 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt autoremove -y
 sudo apt-get install mercurial -y
-sudo apt-get install build-essential python3 python-dev python3-dev python-distlib python-setuptools python-pip python-smbus python3-pip python-wheel python-smbus python-numpy python-opencv libgdal-dev -y
+sudo apt-get install build-essential python3 python-dev python3-dev python-distlib python-setuptools python-pip python-smbus python3-pip python-wheel python-smbus python-numpy python-opencv python-dbus libgdal-dev -y
 sudo apt-get install i2c-tools
 sudo apt-get install libfreetype6-dev
 sudo apt-get install sysinfo
-sudo pip uninstall pillow
+sudo pip uninstall pillow -y
 sudo pip install --no-cache-dir pillow
-sudo pip install psutil pigpio paho-mqtt python-uinput bluedot kinematic 
-sudo adduser pi i2c
+sudo pip install psutil pigpio paho-mqtt python-uinput bluedot kinematic -y
+sudo adduser opi i2c #CAMBIAR opi POR TU NOMBRE DE USUARIO
 echo i2c-dev >> /etc/modules
 echo i2c-algo-bit >> /etc/modules-load.d/i2c.conf
 
